@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*-----ganze seite wird auf null gestellt-------*/
+
+* {margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+/*----- body-------*/
+
+body {
+	background: white;
+	color: white;
+	margin: 0;
+	}
+	
+.banner {
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+	}
+	
+.banner-inner {
+	max-width: 80%;
+	margin: 0 auto;
+	}
+
+#top {
+	width: 100%;
+	}
+
+/*----- navigation-------*/
+
+.navbar {
+	width: 100%;
+	}
+
+.one-third{
+	width: 33.333333333333%;
+	float: left;
+	text-align: center;
+	background-color: #ffea61;
+	}
+	
+.one-third2{
+	width: 33.333333333333%;
+	float: left;
+	text-align: center;
+	background-color: #ffea61;
+	}
+
+.three-titles2-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+/* http://stackoverflow.com/questions/14667829/how-to-create-a-sticky-navigation-bar-that-becomes-fixed-to-the-top-after-scroll */
+
+#about-title {
+	background-color: #ffea61;
+	}
+	
+#about-title12 {
+	width: 100%;
+	}
+#cv-title12 {
+	width: 100%;
+	}
+#skills-title12 {
+	width: 100%;
+	}
+
+	
+#about-title2 {
+	background-color: #ffea61;
+	}
+#about-title12:hover {
+	width: 90%;
+	}
+
+#cv-title {
+	background-color: white;
+	}
+#cv-title2 {
+	background-color: white;
+	}
+#cv-title12:hover {
+	width: 90%;
+	}
+	
+#skills-title {
+	background-color: #9de7f2;
+	}
+#skills-title1 {
+width: 100%;
+	}
+	
+#cv-title1 {
+width: 100%;
+	}
+	
+#about-title1 {
+width: 100%;
+	}
+
+	
+#skills-title2 {
+	background-color: #9de7f2;
+	}
+#skills-title12:hover {
+	width: 90%;
+	}
+	
+/*----- navigation end-------*/
+
+	
+.inner-wrapper-0 {
+	float: left;
+	width: 100%;
+	background-color: #ffea61;
+	}
+	
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	}
+#about1 {
+	margin: 50px 0px 0px 0px;
+	}
+#about1:hover {
+	content: url('Img/About_Section12.png');
+	}
+	
+#about2 {
+	margin: 20px 20px 20px 100px;
+	}
+
+/*----- About end -------*/
+
+
+#cvpage {
+	padding-top: 300px;
+	} 
+
+.inner-wrapper {
+	float: left;
+	width: 100%;
+	background-color: white;
+	}
+	
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: white;
+	}
+	
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #90d3de;
+	}
+
+#img1:hover {
+	content: url(Img/Bild10_1.jpg)
+	}
+
+#img4:hover {
+	content: url(Img/Bild12.jpg)
+	}
+	
+#img5:hover {
+	content: url(Img/Bild13_1.jpg)
+	}
+	
+#img8:hover {
+	content: url(Img/Bild11_1.jpg)
+	}
+
+
+/*----- footer -------*/
+
+
+footer {
+	width: 100%;
+	background-color: #90d3de;
+	 }
+	
+.social {
+	list-style-type: none;
+	text-align: center;	
+		}
+	
+.social li {
+	display: inline;
+	}
+
+.social #insta:hover {
+	opacity: 0.5;
+	}
+	
+.social #facebook:hover {
+	opacity: 0.5;
+	}
+	
+.homebutton {
+	padding-top: 100px;
+	text-align: center;	
+	}
+	
+#homebutton1:hover {
+	opacity: 0.5;
+	}
+	
+/*---------Media---------*/	
+
+@media screen and (max-width: 814px){
+	.banner {
+		content:url("Img/title_media.jpg") !important;
+		width: 100%;
+		}
+	
+	#top {
+		width: 100%;
+		text-align: center;
+		}
+	
+	.one-third {
+		width: 100%;
+		}
+	
+	.one-third2 {
+		width: 100%;
+		}
+	article {
+		width: 100%;
+		}
+	
+	#about1 {
+		width: 100%;
+		}
+	
+	#about2 {
+		width: 50%;
+		float: none;		
+		}
+
+	#about-title12 {
+		width: 100%;
+	}
+	
+	#cv-title12 {
+		width: 100%;
+	}
+	
+	#skills-title12 {
+		width: 100%;
+	}
+		
+		
+		
+	.inner-wrapper {
+		width: 100%;
+	}
+	
+	.inner-wrapper-2 {
+		width: 100%;
+	}
+	
+	article {
+		width: 100%;
+	}
+	
+	aside {
+		width: 100%;
+	}
+	
+	#insta {
+		
+		width: 90px;
+		}
+	#facebook {
+		
+		width: 90px;
+		}
+	.homebutton {
+		padding-top: 2px;
+		}
+	
+	#homebutton1 {
+		width: 60%;}
+	
+	#img1 {
+		width: 100%;
+		display: none;
+		}
+	#img2 {
+		width: 100%;
+		}
+	#img3 {
+		width: 100%;
+		}
+	#img4 {
+		width: 100%;
+		}
+	#img5 {
+		width: 100%;
+		}
+	#img6 {
+		width: 100%;
+		}
+	#img7 {
+		width: 100%;
+		}
+	#img8 {
+		width: 100%;
+		}
+		
+	.three-titles {display: none}
+	.three-titles2-fixed {
+		display: none;
+		}
+		
+	#cvpage {
+	padding-top: 40px;
+	} 
+		
+		}
+
+/*--------------- Print page ----------------*/
+
+@media print {
+ /* All your print styles go here */
+  div.full {
+   content:url("Img/schatz1.jpg") !important;
+}​
+ .fullbody img { display: none;}
+
+ 
+}
+
